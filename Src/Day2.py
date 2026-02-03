@@ -10,7 +10,6 @@ number_of_people = int(input("no of people:"))
 Share_per_Person = (Total_bill/number_of_people)
 print("\n",Share_per_Person)
 
-
 # Understanding Data Types and String Formatting.
 item_name = ("\n Laptop")
 quantity = 2
