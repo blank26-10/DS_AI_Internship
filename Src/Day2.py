@@ -16,4 +16,4 @@ item_name = ("\n Laptop")
 quantity = 2
 price = 499.99
 n_stock = True
-print(f"\n  item{item_name},  Qty{quantity},  Price{print},  Available{n_stock}")
+print(f" item {item_name},  Qty {quantity},  Price {print},  Available {n_stock}")
