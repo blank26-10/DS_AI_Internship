@@ -16,3 +16,4 @@ screen_res = (1920, 1080)
 print("The resolution is ", screen_res)
 #screen_res[0]=(1208)
 print("Tuples cannot be modified!")
+
