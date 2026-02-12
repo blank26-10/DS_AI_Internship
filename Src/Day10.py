@@ -19,3 +19,4 @@ print(df["quantity"].astype(float))
 print(df["product"].str.strip())
 print(df["product"].str.lower())
 print(df["customer_name"].unique().sum())
+
