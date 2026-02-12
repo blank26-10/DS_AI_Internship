@@ -22,4 +22,3 @@ df.dtypes
 print(df["product"].str.strip())
 print(df["product"].str.lower())
 print(df["product"].unique().sum())
-
