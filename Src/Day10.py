@@ -1,4 +1,6 @@
 #Task 1
+
+
 import pandas as pd
 df = pd.read_csv("sample_orders.csv")
 print(df.head())
@@ -11,12 +13,13 @@ print(df.drop_duplicates())
 #Task 2
 print(df.dtypes)
 print(df["price"].astype(str))
-print(df["price"].str.replace("$",""))
-print(df["quantity"].astype(float))
-
+df["price"]=df["price"].str.replace("$","" ,regex=False)
+df["price"]=df["price"].astype(float)
+df["date"]=pd.to_datetime(df["date"])
+df.dtypes
 
 #Task 3
 print(df["product"].str.strip())
 print(df["product"].str.lower())
-print(df["customer_name"].unique().sum())
+print(df["product"].unique().sum())
 
