@@ -26,3 +26,4 @@ corr_matrix=df.corr(numeric_only=True)
 print(corr_matrix)
 sns.boxplot(x=df['price'])
 plt.show()
+
