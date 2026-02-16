@@ -1,7 +1,17 @@
 import matplotlib.pyplot as plt
-study_hours = [1,2,3,4,5,6,7,8]
-scores = [50,55,65,70,75,85,90,95]
-plt.scatter(study_hours,scores)
+plt.subplot(1,2,1)
+categories = ['Electronics','Clothing','Home']
+values = [300,450,200]
+plt.bar(categories,values)
+plt.title("Bar Chart")
+plt.xlabel("Categories")
+plt.ylabel("Values")
+plt.subplot(1,2,2)
+sales = [100,243,354,453,544]
+months = [1,2,3,4,5]
+plt.plot(sales,months)
+plt.title("Line Chart")
+plt.xlabel("Sales")
+plt.ylabel("Months")
+plt.tight_layout()
 plt.show()
-
-
