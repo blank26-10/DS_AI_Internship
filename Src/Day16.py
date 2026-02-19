@@ -34,6 +34,8 @@ else:
     print("z_scores are not more than 3")
 
 
+
+
 #Task 3
 means = []
 
