@@ -15,8 +15,8 @@ sns.histplot(data["Household_Income"], kde=True)
 plt.subplot(1,3,3)
 sns.histplot(data["Exam_Score"], kde=True)
 plt.show()
-print(data["Exam_Score"].mean())
-print(data["Exam_Score"].median())
+print(data["Height_cm"].mean())
+print(data["Height_cm"].median())
 print("Mean = Median it's symmetric")
 
 
